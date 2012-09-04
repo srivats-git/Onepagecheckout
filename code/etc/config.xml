@@ -5,4 +5,11 @@
             <version>1.0.0</version>
         </Dzinehub_Onepagecheckout>
     </modules>
+    <global>
+        <helpers>
+            <onepagecheckout>
+                <class>Dzinehub_Onepagecheckout_Helper</class>
+            </onepagecheckout>
+        </helpers>
+    </global>
 </config>
