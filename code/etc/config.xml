@@ -5,11 +5,32 @@
             <version>1.0.0</version>
         </Dzinehub_Onepagecheckout>
     </modules>
+
+    <frontend>
+        <routers>
+            <onepagecheckout>
+                <use>standard</use>
+                <args>
+                    <module>Dzinehub_Onepagecheckout</module>
+                    <frontName>onepagecheckout</frontName>
+                </args>
+            </onepagecheckout>
+        </routers>
+    </frontend>
+    
     <global>
         <helpers>
             <onepagecheckout>
                 <class>Dzinehub_Onepagecheckout_Helper</class>
             </onepagecheckout>
         </helpers>
+
+        <rewrite>
+            <onepagecheckout>
+                <from><![CDATA[#^/checkout/onepage/#]]></from>
+                <to>/onepagecheckout/onepage</to>
+            </onepagecheckout>
+        </rewrite>
+
     </global>
 </config>
