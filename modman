@@ -1,0 +1,6 @@
+#onepagecheckout module
+
+code   app/code/local/Dzinehub/Onepagecheckout/
+frontend/layout/*   app/design/frontend/default/mytheme/layout/
+frontend/template/*     app/design/frontend/default/mytheme/template/
+Dzinehub_Onepagecheckout.xml    app/etc/modules/
